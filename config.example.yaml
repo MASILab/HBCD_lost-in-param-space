@@ -1,0 +1,74 @@
+experiment_name: autotrack_param_sweep_output_backfill
+paths:
+  dsi_studio_bin: /nfs/masi/taylogc1/bin/dsi_studio_singularity.sh
+  dataset_json: /nfs/masi/taylogc1/subjects.json
+  output_root: /nfs/masi/taylogc1/output_fact
+  summary_root: /nfs/masi/taylogc1/summary_fact_backfill
+execution:
+  mode: subject
+  max_workers: 1
+  resume: true
+  dry_run: false
+  fail_fast: false
+bundles:
+  - ArcuateFasciculusL
+  - ArcuateFasciculusR
+  - FornixL
+  - FornixR
+  - CorticospinalTractL
+  - CorticospinalTractR
+baseline_params:
+  template: 0
+  fa_threshold: 0.0
+  turning_angle: 45
+  step_size: 1.0
+  smoothing: 0.0
+  tip_iteration: 0
+  track_voxel_ratio: 2
+  tolerance: 24
+sweeps:
+  turning_angle:
+    values:
+    - 30
+    - 45
+    - 60
+    - 75
+    - 90
+    permissive_direction: higher
+  step_size:
+    values:
+    - 0.5
+    - 0.75
+    - 1.0
+    - 1.25
+    - 1.5
+    permissive_direction: higher
+  smoothing:
+    values:
+    - 0.0
+    - 0.2
+    - 0.4
+    - 0.6
+    - 0.8
+    permissive_direction: lower
+  tip_iteration:
+    values:
+    - 0
+    - 4
+    - 8
+    - 16
+    - 32
+    permissive_direction: lower
+  tolerance:
+    values:
+    - 22
+    - 24
+    - 26
+    - 28
+    - 30
+    permissive_direction: higher
+filters:
+  subjects: []
+  sessions: []
+  bundles: []
+  parameters: []
