@@ -1,0 +1,53 @@
+{
+  "source_folder": "per_tract_hyperlattice_toggle_plots",
+  "figures": [
+    {
+      "figure": "Left arcuate fasciculus",
+      "source_file": "ArcuateFasciculusL__hyperlattice_metric_toggle_metric_mds.html",
+      "source_sha256": "ae3659b1f398b1556a7d414c5100e90f0120f6f85c094d33de580599cdedab86",
+      "published_file": "af-left/index.html",
+      "published_sha256": "9377387018d13e8dd6b84277988022d464372b56a1fdf940b3e2e88f8a6b3209",
+      "display_changes": "Mobile viewport metadata and page title added to head"
+    },
+    {
+      "figure": "Right arcuate fasciculus",
+      "source_file": "ArcuateFasciculusR__hyperlattice_metric_toggle_metric_mds.html",
+      "source_sha256": "26684403be8f3f0d4b7dd6ebda1a194298eafcfc7404a2824bb3df25e865010f",
+      "published_file": "af-right/index.html",
+      "published_sha256": "eaf014eacfddc5241fa039e1d922e521b4e28151d26c8c75e50a78d7e6820390",
+      "display_changes": "Mobile viewport metadata and page title added to head"
+    },
+    {
+      "figure": "Left fornix",
+      "source_file": "FornixL__hyperlattice_metric_toggle_metric_mds.html",
+      "source_sha256": "0a05560defc406eb83b3eb17c660c22b46330c5b094c4c08f9b030cb465b6b21",
+      "published_file": "fx-left/index.html",
+      "published_sha256": "dbd86b840448f9b6218c5e6ec1e71117d5293c20c2d24b5ffb7e0ba73646fc50",
+      "display_changes": "Mobile viewport metadata and page title added to head"
+    },
+    {
+      "figure": "Right fornix",
+      "source_file": "FornixR__hyperlattice_metric_toggle_metric_mds.html",
+      "source_sha256": "05b3db5dc8b76b161492d7f827cd47596dab645739c9be0b7d1151d61fab55c9",
+      "published_file": "fx-right/index.html",
+      "published_sha256": "2b555ed29b7242a807562fdb044fbce5cc66473483e63bce366bea71c03fb2dc",
+      "display_changes": "Mobile viewport metadata and page title added to head"
+    },
+    {
+      "figure": "Left corticospinal tract",
+      "source_file": "CorticospinalTractL__hyperlattice_metric_toggle_metric_mds.html",
+      "source_sha256": "089bd67456158652856be74b7325904aa7d1b7d5c22be28a3afca870a936571b",
+      "published_file": "cst-left/index.html",
+      "published_sha256": "3bbd2de4f7b0bd5103d3f54a21c39b822651717ab087c3519a703bedeabf0279",
+      "display_changes": "Mobile viewport metadata and page title added to head"
+    },
+    {
+      "figure": "Right corticospinal tract",
+      "source_file": "CorticospinalTractR__hyperlattice_metric_toggle_metric_mds.html",
+      "source_sha256": "58f0e6fada32beb1049b748e102f879e288c47bf1642002cb084d938623c7e97",
+      "published_file": "cst-right/index.html",
+      "published_sha256": "9cf90bd74ef84bf268e9d1bb532f10cc659936cd0657b794a8e02e6a058e7297",
+      "display_changes": "Mobile viewport metadata and page title added to head"
+    }
+  ]
+}
