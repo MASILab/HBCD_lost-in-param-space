@@ -6,14 +6,14 @@ The study includes 12 infants with paired HBCD Visit 2 and Visit 3 scans, giving
 
 A **streamline** is a computed trajectory through diffusion MRI data. A **tractogram** is a collection of these trajectories. A **reference tract** is a subject-session-specific tractogram selected by an expert using anatomical criteria. A **parameter combination** specifies one value for each of the five settings listed below.
 
-## Scientific questions
+## Research questions:
 
 1. **Recovery:** Which settings produce a non-zero streamline count for a requested pathway?
 2. **Morphometric variability:** How does tract size (given by streamline count, length, volume, and surface-area metrics) change across settings?
 3. **Anatomical agreement:** How closely does each recovered tractogram match its corresponding expert reference?
 4. **Joint parameter dependence:** Which parameter levels and combinations characterize regions with favorable anatomical agreement?
 
-## Workflow and scripts
+## Workflow and scripts:
 
 | Script | Inputs | Work performed | Main outputs |
 |---|---|---|---|
@@ -33,7 +33,7 @@ A **streamline** is a computed trajectory through diffusion MRI data. A **tracto
 | `tip_iteration` | 0, 4, 8, 16, 32 | Number of topology-informed pruning iterations | Lower |
 | `tolerance` | 22, 24, 26, 28, 30 mm | AutoTrack recognition tolerance relative to template pathway | Higher |
 
-## Required Inputs
+## Required inputs:
 
 ### Reconstruction manifest
 
@@ -107,6 +107,6 @@ The supplied runner processes the manifest and configured `bundles`.
 
 The study documents are:
 
-1. Taylor GC et al. *Lost in (parameter) space: quantifying parameter-dependent recovery and morphometric variability of infant white matter pathways in the HBCD cohort.* Supplied manuscript: `Taylor_SPIE_manuscript_08-01-26_8-page_FINAL_v11.pdf`.
+1. Taylor GC et al. *Lost in (parameter) space: quantifying parameter-dependent recovery and morphometric variability of infant white matter pathways in the HBCD cohort.* Supplied manuscript: `Taylor_SPIE_manuscript_08-01-26_8-page_FINAL_v11.docx`.
 
-Relevant software references in the manuscript include Yeh, *Nature Methods* 22, 1617–1619 (2025), for DSI Studio; Cai et al., *Magnetic Resonance in Medicine* 86, 456–470 (2021), for PreQual; and Pedregosa et al., *Journal of Machine Learning Research* 12, 2825–2830 (2011), for scikit-learn. The manuscript supplies the full scientific reference list.
+Relevant software references in the manuscript include: Yeh, *Nature Methods* 22, 1617–1619 (2025), for DSI Studio; Cai et al., *Magnetic Resonance in Medicine* 86, 456–470 (2021), for PreQual; and Pedregosa et al., *Journal of Machine Learning Research* 12, 2825–2830 (2011), for scikit-learn. The supplied manuscript contains the full scientific reference list.
